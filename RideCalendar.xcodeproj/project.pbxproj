@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RideCalendarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RideCalendarAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		AE073B591093914600DA9186 /* RideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE073B571093914600DA9186 /* RideViewController.m */; };
+		AE073B5A1093914600DA9186 /* RideLevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE073B581093914600DA9186 /* RideLevelViewController.xib */; };
+		AE073E12109426E700DA9186 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE073E11109426E700DA9186 /* MapKit.framework */; };
+		AE073E3C10942EA200DA9186 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE073E3B10942EA200DA9186 /* CoreLocation.framework */; };
+		AE0740151096C0C000DA9186 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0740141096C0C000DA9186 /* RootViewController.xib */; };
+		AE0740181097C69400DA9186 /* a1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740171097C69400DA9186 /* a1.png */; };
+		AE0740831097CE8D00DA9186 /* e2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740701097CE8D00DA9186 /* e2.png */; };
+		AE0740841097CE8D00DA9186 /* c4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740711097CE8D00DA9186 /* c4.png */; };
+		AE0740851097CE8D00DA9186 /* c3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740721097CE8D00DA9186 /* c3.png */; };
+		AE0740861097CE8D00DA9186 /* e1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740731097CE8D00DA9186 /* e1.png */; };
+		AE0740871097CE8D00DA9186 /* c2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740741097CE8D00DA9186 /* c2.png */; };
+		AE0740881097CE8D00DA9186 /* d4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740751097CE8D00DA9186 /* d4.png */; };
+		AE0740891097CE8D00DA9186 /* a4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740761097CE8D00DA9186 /* a4.png */; };
+		AE07408A1097CE8D00DA9186 /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740771097CE8D00DA9186 /* b1.png */; };
+		AE07408B1097CE8D00DA9186 /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740781097CE8D00DA9186 /* b2.png */; };
+		AE07408C1097CE8D00DA9186 /* a3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740791097CE8D00DA9186 /* a3.png */; };
+		AE07408D1097CE8D00DA9186 /* c1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE07407A1097CE8D00DA9186 /* c1.png */; };
+		AE07408E1097CE8D00DA9186 /* d3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE07407B1097CE8D00DA9186 /* d3.png */; };
+		AE07408F1097CE8D00DA9186 /* a2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE07407C1097CE8D00DA9186 /* a2.png */; };
+		AE0740901097CE8D00DA9186 /* b4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE07407D1097CE8D00DA9186 /* b4.png */; };
+		AE0740911097CE8D00DA9186 /* d2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE07407E1097CE8D00DA9186 /* d2.png */; };
+		AE0740921097CE8D00DA9186 /* e4.png in Resources */ = {isa = PBXBuildFile; fileRef = AE07407F1097CE8D00DA9186 /* e4.png */; };
+		AE0740931097CE8D00DA9186 /* b3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740801097CE8D00DA9186 /* b3.png */; };
+		AE0740941097CE8D00DA9186 /* d1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740811097CE8D00DA9186 /* d1.png */; };
+		AE0740951097CE8D00DA9186 /* e3.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740821097CE8D00DA9186 /* e3.png */; };
+		AE0740C71098D41800DA9186 /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0740C51098D41800DA9186 /* DescriptionViewController.m */; };
+		AE0740C81098D41800DA9186 /* DescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0740C61098D41800DA9186 /* DescriptionViewController.xib */; };
+		AE0740D21098D6CA00DA9186 /* a5.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740CE1098D6CA00DA9186 /* a5.png */; };
+		AE0740D31098D6CA00DA9186 /* b5.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740CF1098D6CA00DA9186 /* b5.png */; };
+		AE0740D41098D6CA00DA9186 /* c5.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740D01098D6CA00DA9186 /* c5.png */; };
+		AE0740D51098D6CA00DA9186 /* d5.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0740D11098D6CA00DA9186 /* d5.png */; };
+		AE1E81DD11371EAD00BDA5A2 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE1E81DC11371EAD00BDA5A2 /* Entitlements.plist */; };
+		AE29341E113A2CB9005ABA5A /* ContactScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = AE29341D113A2CB9005ABA5A /* ContactScanner.m */; };
+		AE2934D2113A430A005ABA5A /* rsvp.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2934D1113A430A005ABA5A /* rsvp.png */; };
+		AE2934DA113A439E005ABA5A /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2934D9113A439E005ABA5A /* map.png */; };
+		AE2B003011F2DE2B007633E3 /* Ride.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B002F11F2DE2B007633E3 /* Ride.m */; };
+		AE2F3B79112CC150006C875D /* RideCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE2F3B78112CC150006C875D /* RideCalendar.xcdatamodeld */; };
+		AE2F3B96112CC3F1006C875D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2F3B95112CC3F1006C875D /* CoreData.framework */; };
+		AE2F8B5411E9218700C8C114 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2F8B5311E9218700C8C114 /* Default.png */; };
+		AE6779D111197FB0002013C9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE6779D011197FB0002013C9 /* icon.png */; };
+		AE76153D111D72A800F4F669 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE76153B111D72A800F4F669 /* StartViewController.m */; };
+		AE76153E111D72A800F4F669 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE76153C111D72A800F4F669 /* StartViewController.xib */; };
+		AE961B001166E35000E885D4 /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE961AFF1166E35000E885D4 /* XmlParser.m */; };
+		AED1D7B7117974D6005CDFC5 /* XmlElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AED1D7B6117974D6005CDFC5 /* XmlElement.m */; };
+		AED1D85D117BFB65005CDFC5 /* XmlRideFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AED1D85C117BFB65005CDFC5 /* XmlRideFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RideCalendarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideCalendarAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RideCalendarAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideCalendarAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RideCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* RideCalendar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideCalendar_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RideCalendar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RideCalendar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AE073B561093914600DA9186 /* RideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RideViewController.h; path = ../RideViewController.h; sourceTree = "<group>"; };
+		AE073B571093914600DA9186 /* RideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RideViewController.m; path = ../RideViewController.m; sourceTree = "<group>"; };
+		AE073B581093914600DA9186 /* RideLevelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideLevelViewController.xib; sourceTree = "<group>"; };
+		AE073E11109426E700DA9186 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AE073E3B10942EA200DA9186 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE0740141096C0C000DA9186 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		AE0740171097C69400DA9186 /* a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a1.png; sourceTree = "<group>"; };
+		AE0740701097CE8D00DA9186 /* e2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e2.png; sourceTree = "<group>"; };
+		AE0740711097CE8D00DA9186 /* c4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c4.png; sourceTree = "<group>"; };
+		AE0740721097CE8D00DA9186 /* c3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c3.png; sourceTree = "<group>"; };
+		AE0740731097CE8D00DA9186 /* e1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e1.png; sourceTree = "<group>"; };
+		AE0740741097CE8D00DA9186 /* c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c2.png; sourceTree = "<group>"; };
+		AE0740751097CE8D00DA9186 /* d4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d4.png; sourceTree = "<group>"; };
+		AE0740761097CE8D00DA9186 /* a4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a4.png; sourceTree = "<group>"; };
+		AE0740771097CE8D00DA9186 /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		AE0740781097CE8D00DA9186 /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
+		AE0740791097CE8D00DA9186 /* a3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a3.png; sourceTree = "<group>"; };
+		AE07407A1097CE8D00DA9186 /* c1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c1.png; sourceTree = "<group>"; };
+		AE07407B1097CE8D00DA9186 /* d3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d3.png; sourceTree = "<group>"; };
+		AE07407C1097CE8D00DA9186 /* a2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a2.png; sourceTree = "<group>"; };
+		AE07407D1097CE8D00DA9186 /* b4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b4.png; sourceTree = "<group>"; };
+		AE07407E1097CE8D00DA9186 /* d2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d2.png; sourceTree = "<group>"; };
+		AE07407F1097CE8D00DA9186 /* e4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e4.png; sourceTree = "<group>"; };
+		AE0740801097CE8D00DA9186 /* b3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b3.png; sourceTree = "<group>"; };
+		AE0740811097CE8D00DA9186 /* d1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d1.png; sourceTree = "<group>"; };
+		AE0740821097CE8D00DA9186 /* e3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e3.png; sourceTree = "<group>"; };
+		AE0740C41098D41800DA9186 /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		AE0740C51098D41800DA9186 /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		AE0740C61098D41800DA9186 /* DescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DescriptionViewController.xib; path = Classes/DescriptionViewController.xib; sourceTree = "<group>"; };
+		AE0740CE1098D6CA00DA9186 /* a5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a5.png; sourceTree = "<group>"; };
+		AE0740CF1098D6CA00DA9186 /* b5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b5.png; sourceTree = "<group>"; };
+		AE0740D01098D6CA00DA9186 /* c5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c5.png; sourceTree = "<group>"; };
+		AE0740D11098D6CA00DA9186 /* d5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d5.png; sourceTree = "<group>"; };
+		AE1E81DC11371EAD00BDA5A2 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		AE29341C113A2CB9005ABA5A /* ContactScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactScanner.h; sourceTree = "<group>"; };
+		AE29341D113A2CB9005ABA5A /* ContactScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactScanner.m; sourceTree = "<group>"; };
+		AE2934D1113A430A005ABA5A /* rsvp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsvp.png; sourceTree = "<group>"; };
+		AE2934D9113A439E005ABA5A /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		AE2B002E11F2DE2B007633E3 /* Ride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ride.h; sourceTree = "<group>"; };
+		AE2B002F11F2DE2B007633E3 /* Ride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ride.m; sourceTree = "<group>"; };
+		AE2F3B95112CC3F1006C875D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE2F8B5311E9218700C8C114 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AE404E021125F1C30049169E /* RideCalendar.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = RideCalendar.xcdatamodel; sourceTree = "<group>"; };
+		AE67798911196D32002013C9 /* Ride Calendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ride Calendar-Info.plist"; sourceTree = "<group>"; };
+		AE6779D011197FB0002013C9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AE76153A111D72A700F4F669 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		AE76153B111D72A800F4F669 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		AE76153C111D72A800F4F669 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StartViewController.xib; path = Classes/StartViewController.xib; sourceTree = "<group>"; };
+		AE961AFE1166E35000E885D4 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
+		AE961AFF1166E35000E885D4 /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
+		AED1D7B5117974D6005CDFC5 /* XmlElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlElement.h; sourceTree = "<group>"; };
+		AED1D7B6117974D6005CDFC5 /* XmlElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlElement.m; sourceTree = "<group>"; };
+		AED1D85B117BFB65005CDFC5 /* XmlRideFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlRideFactory.h; sourceTree = "<group>"; };
+		AED1D85C117BFB65005CDFC5 /* XmlRideFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlRideFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				AE073E12109426E700DA9186 /* MapKit.framework in Frameworks */,
+				AE073E3C10942EA200DA9186 /* CoreLocation.framework in Frameworks */,
+				AE2F3B96112CC3F1006C875D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* RideCalendarAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RideCalendarAppDelegate.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				AE073B561093914600DA9186 /* RideViewController.h */,
+				AE073B571093914600DA9186 /* RideViewController.m */,
+				AE0740C41098D41800DA9186 /* DescriptionViewController.h */,
+				AE0740C51098D41800DA9186 /* DescriptionViewController.m */,
+				AE76153A111D72A700F4F669 /* StartViewController.h */,
+				AE76153B111D72A800F4F669 /* StartViewController.m */,
+				AE29341C113A2CB9005ABA5A /* ContactScanner.h */,
+				AE29341D113A2CB9005ABA5A /* ContactScanner.m */,
+				AE961AFE1166E35000E885D4 /* XmlParser.h */,
+				AE961AFF1166E35000E885D4 /* XmlParser.m */,
+				AED1D7B5117974D6005CDFC5 /* XmlElement.h */,
+				AED1D7B6117974D6005CDFC5 /* XmlElement.m */,
+				AED1D85B117BFB65005CDFC5 /* XmlRideFactory.h */,
+				AED1D85C117BFB65005CDFC5 /* XmlRideFactory.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RideCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				AE1E81DC11371EAD00BDA5A2 /* Entitlements.plist */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				AE67798911196D32002013C9 /* Ride Calendar-Info.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* RideCalendar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE76156F111DFC4200F4F669 /* images */,
+				8D1107310486CEB800E47090 /* RideCalendar-Info.plist */,
+				AE2F8B5311E9218700C8C114 /* Default.png */,
+				AE6779D011197FB0002013C9 /* icon.png */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				AE0740141096C0C000DA9186 /* RootViewController.xib */,
+				AE073B581093914600DA9186 /* RideLevelViewController.xib */,
+				AE0740C61098D41800DA9186 /* DescriptionViewController.xib */,
+				AE76153C111D72A800F4F669 /* StartViewController.xib */,
+				AE2F3B78112CC150006C875D /* RideCalendar.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE073E3B10942EA200DA9186 /* CoreLocation.framework */,
+				AE073E11109426E700DA9186 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				AE2F3B95112CC3F1006C875D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE76156F111DFC4200F4F669 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AE2934D9113A439E005ABA5A /* map.png */,
+				AE2934D1113A430A005ABA5A /* rsvp.png */,
+				AE0740CE1098D6CA00DA9186 /* a5.png */,
+				AE0740CF1098D6CA00DA9186 /* b5.png */,
+				AE0740D01098D6CA00DA9186 /* c5.png */,
+				AE0740D11098D6CA00DA9186 /* d5.png */,
+				AE0740701097CE8D00DA9186 /* e2.png */,
+				AE0740711097CE8D00DA9186 /* c4.png */,
+				AE0740721097CE8D00DA9186 /* c3.png */,
+				AE0740731097CE8D00DA9186 /* e1.png */,
+				AE0740741097CE8D00DA9186 /* c2.png */,
+				AE0740751097CE8D00DA9186 /* d4.png */,
+				AE0740761097CE8D00DA9186 /* a4.png */,
+				AE0740771097CE8D00DA9186 /* b1.png */,
+				AE0740781097CE8D00DA9186 /* b2.png */,
+				AE0740791097CE8D00DA9186 /* a3.png */,
+				AE07407A1097CE8D00DA9186 /* c1.png */,
+				AE07407B1097CE8D00DA9186 /* d3.png */,
+				AE07407C1097CE8D00DA9186 /* a2.png */,
+				AE07407D1097CE8D00DA9186 /* b4.png */,
+				AE07407E1097CE8D00DA9186 /* d2.png */,
+				AE07407F1097CE8D00DA9186 /* e4.png */,
+				AE0740801097CE8D00DA9186 /* b3.png */,
+				AE0740811097CE8D00DA9186 /* d1.png */,
+				AE0740821097CE8D00DA9186 /* e3.png */,
+				AE0740171097C69400DA9186 /* a1.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RideCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RideCalendar" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RideCalendar;
+			productName = RideCalendar;
+			productReference = 1D6058910D05DD3D006BFB54 /* RideCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RideCalendar" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RideCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				AE073B5A1093914600DA9186 /* RideLevelViewController.xib in Resources */,
+				AE0740151096C0C000DA9186 /* RootViewController.xib in Resources */,
+				AE0740181097C69400DA9186 /* a1.png in Resources */,
+				AE0740831097CE8D00DA9186 /* e2.png in Resources */,
+				AE0740841097CE8D00DA9186 /* c4.png in Resources */,
+				AE0740851097CE8D00DA9186 /* c3.png in Resources */,
+				AE0740861097CE8D00DA9186 /* e1.png in Resources */,
+				AE0740871097CE8D00DA9186 /* c2.png in Resources */,
+				AE0740881097CE8D00DA9186 /* d4.png in Resources */,
+				AE0740891097CE8D00DA9186 /* a4.png in Resources */,
+				AE07408A1097CE8D00DA9186 /* b1.png in Resources */,
+				AE07408B1097CE8D00DA9186 /* b2.png in Resources */,
+				AE07408C1097CE8D00DA9186 /* a3.png in Resources */,
+				AE07408D1097CE8D00DA9186 /* c1.png in Resources */,
+				AE07408E1097CE8D00DA9186 /* d3.png in Resources */,
+				AE07408F1097CE8D00DA9186 /* a2.png in Resources */,
+				AE0740901097CE8D00DA9186 /* b4.png in Resources */,
+				AE0740911097CE8D00DA9186 /* d2.png in Resources */,
+				AE0740921097CE8D00DA9186 /* e4.png in Resources */,
+				AE0740931097CE8D00DA9186 /* b3.png in Resources */,
+				AE0740941097CE8D00DA9186 /* d1.png in Resources */,
+				AE0740951097CE8D00DA9186 /* e3.png in Resources */,
+				AE0740C81098D41800DA9186 /* DescriptionViewController.xib in Resources */,
+				AE0740D21098D6CA00DA9186 /* a5.png in Resources */,
+				AE0740D31098D6CA00DA9186 /* b5.png in Resources */,
+				AE0740D41098D6CA00DA9186 /* c5.png in Resources */,
+				AE0740D51098D6CA00DA9186 /* d5.png in Resources */,
+				AE6779D111197FB0002013C9 /* icon.png in Resources */,
+				AE76153E111D72A800F4F669 /* StartViewController.xib in Resources */,
+				AE1E81DD11371EAD00BDA5A2 /* Entitlements.plist in Resources */,
+				AE2934D2113A430A005ABA5A /* rsvp.png in Resources */,
+				AE2934DA113A439E005ABA5A /* map.png in Resources */,
+				AE2F8B5411E9218700C8C114 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RideCalendarAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				AE073B591093914600DA9186 /* RideViewController.m in Sources */,
+				AE0740C71098D41800DA9186 /* DescriptionViewController.m in Sources */,
+				AE76153D111D72A800F4F669 /* StartViewController.m in Sources */,
+				AE2F3B79112CC150006C875D /* RideCalendar.xcdatamodeld in Sources */,
+				AE29341E113A2CB9005ABA5A /* ContactScanner.m in Sources */,
+				AE961B001166E35000E885D4 /* XmlParser.m in Sources */,
+				AED1D7B7117974D6005CDFC5 /* XmlElement.m in Sources */,
+				AED1D85D117BFB65005CDFC5 /* XmlRideFactory.m in Sources */,
+				AE2B003011F2DE2B007633E3 /* Ride.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.0]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RideCalendar_Prefix.pch;
+				INFOPLIST_FILE = "RideCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PRODUCT_NAME = RideCalendar;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos3.1.2]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RideCalendar_Prefix.pch;
+				INFOPLIST_FILE = "RideCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PRODUCT_NAME = RideCalendar;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos3.1.2]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AE1E81D811371DBE00BDA5A2 /* Distribution adHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jerome Thomere";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EB971AD2-B516-4C35-B8F7-16C5B228446B";
+				SDKROOT = iphoneos3.1.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Distribution adHoc";
+		};
+		AE1E81D911371DBE00BDA5A2 /* Distribution adHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos3.1.2]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RideCalendar_Prefix.pch;
+				INFOPLIST_FILE = "RideCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PRODUCT_NAME = RideCalendar;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos3.1.2]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Distribution adHoc";
+		};
+		AE6779BA11197B6C002013C9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		AE6779BB11197B6C002013C9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos3.1.2]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RideCalendar_Prefix.pch;
+				INFOPLIST_FILE = "RideCalendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PRODUCT_NAME = RideCalendar;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos3.1.2]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RideCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				AE6779BB11197B6C002013C9 /* Distribution */,
+				AE1E81D911371DBE00BDA5A2 /* Distribution adHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RideCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				AE6779BA11197B6C002013C9 /* Distribution */,
+				AE1E81D811371DBE00BDA5A2 /* Distribution adHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE2F3B78112CC150006C875D /* RideCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE404E021125F1C30049169E /* RideCalendar.xcdatamodel */,
+				AE2B002E11F2DE2B007633E3 /* Ride.h */,
+				AE2B002F11F2DE2B007633E3 /* Ride.m */,
+			);
+			currentVersion = AE404E021125F1C30049169E /* RideCalendar.xcdatamodel */;
+			path = RideCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
