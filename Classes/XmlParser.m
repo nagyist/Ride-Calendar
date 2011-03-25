@@ -58,6 +58,12 @@
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qname {
 	XmlElement *currentElement = [self.inElement lastObject];
 	currentElement.content = [NSString stringWithString:self.currentParsedCharacterData];
+    if ([elementName isEqualToString:@"title"]) {
+        NSLog(@"title=%@", currentElement.content);
+    }
+    if ([elementName isEqualToString:@"id"]) {
+        NSLog(@"id=%@", currentElement.content);
+    }
 	[currentParsedCharacterData setString:@""];
 	[self.inElement removeLastObject];
 	XmlElement *previousElement = [self.inElement lastObject];

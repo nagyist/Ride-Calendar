@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 #import "XmlElement.h"
 
-@interface XmlParser : NSObject <NSXMLParserDelegate> {
+@interface XmlParser : NSObject {
 	NSData *xmlData;
 	NSMutableArray *inElement;
 	NSMutableSet *nonTerminalElements;

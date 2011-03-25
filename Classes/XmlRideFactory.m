@@ -53,7 +53,7 @@ static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
 			//[foundXml xmlLog];
 		}
 		[self fillUpRidefromElement:foundXml];
-		//NSLog(@"Ride=%@", self.ride);
+		NSLog(@"Ride=%@ %@  %@ %@", self.ride.rideId, self.ride.title,  self.ride.month, self.ride.date);
 		return self.ride;
 	}
 	return nil;
@@ -72,7 +72,8 @@ static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
 			NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
 			[dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss"];
 			ride.date = [dateFormatter dateFromString:elt.content];
-			[dateFormatter setDateFormat:@"LLLL YYYY"];
+			[dateFormatter setDateFormat:@"LLLL yyyy"];
+            NSLog(@"stringfromdate=%@ to %@", ride.date, [dateFormatter stringFromDate:ride.date]);
 			ride.month = [dateFormatter stringFromDate:ride.date];
 		} else if ([elt.tag isEqualToString:kPaceElementName]) {
 			ride.pace = [NSNumber numberWithInt:[elt.content characterAtIndex:0] - kPaceA];

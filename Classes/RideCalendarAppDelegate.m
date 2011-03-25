@@ -23,6 +23,7 @@
 @synthesize rootViewController;
 @synthesize feedConnection;
 @synthesize rideData;
+@synthesize lastUpdatedDate;
 @synthesize nextRide,currentRideObject,currentParseBatch; //currentParsedCharacterData
 
 static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calendar/rides-xml.php";
@@ -35,7 +36,7 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
     
 	[window addSubview:[navigationController view]];
 	[self reloadTableView];
-	NSString* updatedURLString = [NSString stringWithFormat:@"%@?updatedafter=2010-07-23", kCalendarURLString];
+	NSString* updatedURLString = [NSString stringWithFormat:@"%@?updatedafter=2010-03-23", kCalendarURLString];
 	NSLog(@"updatedURLString=%@", updatedURLString);
 	NSURLRequest *rideRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:updatedURLString]];
 	self.feedConnection = [[[NSURLConnection alloc] initWithRequest:rideRequest delegate:self] autorelease];
@@ -131,6 +132,7 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
 	[rideParser execute];
 	XmlRideFactory* factory = [[XmlRideFactory alloc] init];
 	XmlElement* messageElement = [rideParser.parsedElement getElementByTagName:@"message"];
+    NSLog(@"There are %d elements in the message", [messageElement.children count]);
 	for (XmlElement* elt in messageElement.children) {
 		[self checkObject:[factory rideFromXml:elt]];
 	}
@@ -505,6 +507,7 @@ static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
 - (void)dealloc {
 	[feedConnection release];
 	[nextRide release];
+    [lastUpdatedDate release];
 	[rideData release];
 	[navigationController release];
 	[rootViewController release];

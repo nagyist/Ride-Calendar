@@ -23,6 +23,8 @@
 	NSURLConnection *feedConnection;
 	NSMutableData *rideData;
 	
+    NSDate *lastUpdatedDate;
+	
 	Ride *currentRideObject;
 	Ride *nextRide;
 	NSMutableArray *currentParseBatch;
@@ -42,6 +44,7 @@
 
 @property (nonatomic, retain) NSURLConnection *feedConnection;
 @property (nonatomic, retain) NSMutableData *rideData;
+@property (nonatomic, retain) NSDate *lastUpdatedDate;
 @property (nonatomic, retain) Ride *nextRide;
 
 @property (nonatomic, retain) Ride *currentRideObject;
