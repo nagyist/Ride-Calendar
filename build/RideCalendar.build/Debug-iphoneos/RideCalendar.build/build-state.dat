@@ -1,1516 +1,0 @@
-TRideCalendar
-v7
-r0
-t321754117.223344
-cCheck dependencies
-cCpResource build/Debug-iphoneos/RideCalendar.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Info.plist RideCalendar-Info.plist
-cCompileXIB /Users/thomere/code/RideCalendar/MainWindow.xib
-cCompileXIB /Users/thomere/code/RideCalendar/RideLevelViewController.xib
-cCompileXIB /Users/thomere/code/RideCalendar/RootViewController.xib
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a1.png a1.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e2.png e2.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c4.png c4.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c3.png c3.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e1.png e1.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c2.png c2.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d4.png d4.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a4.png a4.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b1.png b1.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b2.png b2.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a3.png a3.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c1.png c1.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d3.png d3.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a2.png a2.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b4.png b4.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d2.png d2.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e4.png e4.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b3.png b3.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d1.png d1.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e3.png e3.png
-cCompileXIB /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.xib
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a5.png a5.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b5.png b5.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c5.png c5.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d5.png d5.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/icon.png icon.png
-cCompileXIB /Users/thomere/code/RideCalendar/Classes/StartViewController.xib
-cCopyPlistFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Entitlements.plist Entitlements.plist
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/rsvp.png rsvp.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/map.png map.png
-cCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Default.png Default.png
-cProcessPCH /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch.gch RideCalendar_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch.gch RideCalendar_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cDataModelVersionCompile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar.momd /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/main.o /Users/thomere/code/RideCalendar/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendarAppDelegate.o /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RootViewController.o /Users/thomere/code/RideCalendar/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideViewController.o /Users/thomere/code/RideCalendar/Classes/../RideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/DescriptionViewController.o /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/StartViewController.o /Users/thomere/code/RideCalendar/Classes/StartViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/ContactScanner.o /Users/thomere/code/RideCalendar/Classes/ContactScanner.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlParser.o /Users/thomere/code/RideCalendar/Classes/XmlParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlElement.o /Users/thomere/code/RideCalendar/Classes/XmlElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlRideFactory.o /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/Ride.o /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/main.o /Users/thomere/code/RideCalendar/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendarAppDelegate.o /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar normal armv6
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RootViewController.o /Users/thomere/code/RideCalendar/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideViewController.o /Users/thomere/code/RideCalendar/Classes/../RideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/DescriptionViewController.o /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/StartViewController.o /Users/thomere/code/RideCalendar/Classes/StartViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/ContactScanner.o /Users/thomere/code/RideCalendar/Classes/ContactScanner.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlParser.o /Users/thomere/code/RideCalendar/Classes/XmlParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlElement.o /Users/thomere/code/RideCalendar/Classes/XmlElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlRideFactory.o /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/Ride.o /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar normal armv7
-cCreateUniversalBinary /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar normal "armv6 armv7"
-cGenerateDSYMFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app.dSYM /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar
-cProcessProductPackaging "/Users/thomere/Library/MobileDevice/Provisioning Profiles/FBF31D73-894E-40C8-8F1E-67B64724970C.mobileprovision" /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/embedded.mobileprovision
-cTouch /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent
-cCodeSign /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-cValidate /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CC7DC9E0000000000000110
-t1288166558
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CB3DFCF00000000000001A7
-t1286856655
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CB3DFCF00000000000001E5
-t1286856655
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
-c000000004CC10EAD00000000000004CF
-t1287720621
-s1231
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004CC10FA70000000000300DE0
-t1287720871
-s3149280
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004CC10F8D000000000000046B
-t1287720845
-s1131
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004CC11B5300000000000D96F0
-t1287723859
-s890608
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h
-c000000004CC11B430000000000001B7D
-t1287723843
-s7037
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004CC11D4800000000000002FE
-t1287724360
-s766
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004CC11D62000000000029CFA0
-t1287724386
-s2740128
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC11B750000000000C769F0
-t1287723893
-s13068784
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
-c000000004CB3FBB80000000000001ADD
-t1286863800
-s6877
-
-N/Users/thomere/Library/MobileDevice/Provisioning Profiles/FBF31D73-894E-40C8-8F1E-67B64724970C.mobileprovision
-c000000004D3E4D870000000000001D2F
-t1295928711
-s7471
-
-N/Users/thomere/code/RideCalendar/Classes/../RideViewController.m
-c000000004C44B1040000000000001F2C
-t1279570180
-s7980
-i"RideViewController.h"
-i"CoreLocation/CLLocation.h"
-i"DescriptionViewController.h"
-i"StartViewController.h"
-i"ContactScanner.h"
-
-N/Users/thomere/code/RideCalendar/Classes/ContactScanner.h
-c000000004B89FB0100000000000001F1
-t1267333889
-s497
-i<Foundation/Foundation.h>
-
-N/Users/thomere/code/RideCalendar/Classes/ContactScanner.m
-c000000004B8A15F2000000000000046A
-t1267340786
-s1130
-i"ContactScanner.h"
-
-N/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.h
-c000000004B86E7AE000000000000019A
-t1267132334
-s410
-i<UIKit/UIKit.h>
-
-N/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m
-c000000004B6E042800000000000005D9
-t1265501224
-s1497
-i"DescriptionViewController.h"
-
-N/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.xib
-c000000004B6E15A60000000000004833
-t1265505702
-s18483
-
-N/Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.h
-c000000004C4CF0D7000000000000086A
-t1280110807
-s2154
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m
-c000000004C50D54A00000000000051DA
-t1280365898
-s20954
-i"RideCalendarAppDelegate.h"
-i"RootViewController.h"
-i"Ride.h"
-i"XmlParser.h"
-i"XmlRideFactory.h"
-i<CFNetwork/CFNetwork.h>
-
-N/Users/thomere/code/RideCalendar/Classes/RootViewController.h
-c000000004B8F3A520000000000000231
-t1267677778
-s561
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-i"Ride.h"
-
-N/Users/thomere/code/RideCalendar/Classes/RootViewController.m
-c000000004C44E15F00000000000018CC
-t1279582559
-s6348
-i"RootViewController.h"
-i"RideViewController.h"
-i"Ride.h"
-i"RideCalendarAppDelegate.h"
-
-N/Users/thomere/code/RideCalendar/Classes/StartViewController.h
-c000000004B75C8FA0000000000000273
-t1266010362
-s627
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-
-N/Users/thomere/code/RideCalendar/Classes/StartViewController.m
-c000000004C44B104000000000000094C
-t1279570180
-s2380
-i"StartViewController.h"
-
-N/Users/thomere/code/RideCalendar/Classes/StartViewController.xib
-c000000004B710E8B0000000000006117
-t1265700491
-s24855
-
-N/Users/thomere/code/RideCalendar/Classes/XmlElement.h
-c000000004C392DE60000000000000213
-t1278815718
-s531
-i<Foundation/Foundation.h>
-i"XmlElement.h"
-
-N/Users/thomere/code/RideCalendar/Classes/XmlElement.m
-c000000004C392DE300000000000003EF
-t1278815715
-s1007
-i"XmlElement.h"
-
-N/Users/thomere/code/RideCalendar/Classes/XmlParser.h
-c000000004C4CF0EE000000000000034A
-t1280110830
-s842
-i<Foundation/Foundation.h>
-i"XmlElement.h"
-
-N/Users/thomere/code/RideCalendar/Classes/XmlParser.m
-c000000004C396EA60000000000000B96
-t1278832294
-s2966
-i"XmlParser.h"
-i"XmlElement.h"
-
-N/Users/thomere/code/RideCalendar/Classes/XmlRideFactory.h
-c000000004C3964C60000000000000256
-t1278829766
-s598
-i<Foundation/Foundation.h>
-i"XmlElement.h"
-i"Ride.h"
-
-N/Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m
-c000000004C44E9B800000000000011DB
-t1279584696
-s4571
-i"XmlRideFactory.h"
-i"RideCalendarAppDelegate.h"
-
-N/Users/thomere/code/RideCalendar/Default.png
-c000000004C38E9B3000000000004BF46
-t1278798259
-s311110
-
-N/Users/thomere/code/RideCalendar/Entitlements.plist
-c000000004B86E73600000000000000E1
-t1267132214
-s225
-
-N/Users/thomere/code/RideCalendar/MainWindow.xib
-c000000004ADBF2A10000000000002D5E
-t1255928481
-s11614
-
-N/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld
-c000000004C42A6B400000000000000CC
-t1279436468
-s204
-
-N/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.h
-c000000004C42A6AB000000000000042C
-t1279436459
-s1068
-i<CoreData/CoreData.h>
-
-N/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m
-c000000004C42A6AB00000000000001E7
-t1279436459
-s487
-i"Ride.h"
-
-N/Users/thomere/code/RideCalendar/RideCalendar_Prefix.pch
-c000000004C39633F000000000000016C
-t1278829375
-s364
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/thomere/code/RideCalendar/RideLevelViewController.xib
-c000000004B8B74FE000000000000957F
-t1267430654
-s38271
-
-N/Users/thomere/code/RideCalendar/RideViewController.h
-c000000004B921398000000000000050B
-t1267864472
-s1291
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-i"Ride.h"
-
-N/Users/thomere/code/RideCalendar/RootViewController.xib
-c000000004B85DF5C0000000000004411
-t1267064668
-s17425
-
-N/Users/thomere/code/RideCalendar/a1.png
-c000000004AE78DA00000000000003BC2
-t1256689056
-s15298
-
-N/Users/thomere/code/RideCalendar/a2.png
-c000000004AE78DCF0000000000006CBA
-t1256689103
-s27834
-
-N/Users/thomere/code/RideCalendar/a3.png
-c000000004AE78DDB00000000000083DD
-t1256689115
-s33757
-
-N/Users/thomere/code/RideCalendar/a4.png
-c000000004AE78E0300000000000074CC
-t1256689155
-s29900
-
-N/Users/thomere/code/RideCalendar/a5.png
-c000000004AE7F5E30000000000008AFF
-t1256715747
-s35583
-
-N/Users/thomere/code/RideCalendar/b1.png
-c000000004AE78E550000000000004151
-t1256689237
-s16721
-
-N/Users/thomere/code/RideCalendar/b2.png
-c000000004AE78E410000000000006DB2
-t1256689217
-s28082
-
-N/Users/thomere/code/RideCalendar/b3.png
-c000000004AE78DF90000000000008F7B
-t1256689145
-s36731
-
-N/Users/thomere/code/RideCalendar/b4.png
-c000000004AE78E4B0000000000007655
-t1256689227
-s30293
-
-N/Users/thomere/code/RideCalendar/b5.png
-c000000004AE7F5C8000000000000561B
-t1256715720
-s22043
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-t1300061316
-s1496
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app.dSYM
-t1300061316
-s102
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Default.png
-t1300061312
-s303893
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/DescriptionViewController.nib
-t1300061312
-s2725
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Entitlements.plist
-t1300061312
-s62
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Info.plist
-t1300061309
-s1152
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/MainWindow.nib
-t1300061309
-s2487
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/PkgInfo
-t1300061309
-s8
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/ResourceRules.plist
-t1300061309
-s485
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar
-t1300061315
-s191924
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar.momd
-t1300061314
-s136
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideLevelViewController.nib
-t1300061310
-s7217
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RootViewController.nib
-t1300061310
-s1516
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/StartViewController.nib
-t1300061312
-s5304
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a1.png
-t1300061310
-s13450
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a2.png
-t1300061311
-s24084
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a3.png
-t1300061310
-s30117
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a4.png
-t1300061310
-s26673
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a5.png
-t1300061311
-s31889
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b1.png
-t1300061310
-s14588
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b2.png
-t1300061310
-s24415
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b3.png
-t1300061311
-s33192
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b4.png
-t1300061311
-s27030
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b5.png
-t1300061311
-s19078
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c1.png
-t1300061310
-s12816
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c2.png
-t1300061310
-s19268
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c3.png
-t1300061310
-s21333
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c4.png
-t1300061310
-s10627
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c5.png
-t1300061311
-s22802
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d1.png
-t1300061311
-s12346
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d2.png
-t1300061311
-s18098
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d3.png
-t1300061311
-s20002
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d4.png
-t1300061310
-s3871
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d5.png
-t1300061311
-s20889
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e1.png
-t1300061310
-s11605
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e2.png
-t1300061310
-s17805
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e3.png
-t1300061311
-s19857
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e4.png
-t1300061311
-s3372
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/embedded.mobileprovision
-t1300061316
-s7471
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/icon.png
-t1300061311
-s6356
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/map.png
-t1300061312
-s5534
-
-N/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/rsvp.png
-t1300061312
-s4410
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/ContactScanner.o
-t1300061314
-s12944
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/DescriptionViewController.o
-t1300061314
-s41436
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/Ride.o
-t1300061314
-s6000
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar
-t1300061315
-s93668
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar.LinkFileList
-c000000004D7D5C7D000000000000059A
-t1300061309
-s1434
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendarAppDelegate.o
-t1300061314
-s98484
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideViewController.o
-t1300061314
-s74928
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RootViewController.o
-t1300061314
-s73676
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/StartViewController.o
-t1300061314
-s53384
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlElement.o
-t1300061314
-s12488
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlParser.o
-t1300061314
-s59072
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlRideFactory.o
-t1300061314
-s65740
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/main.o
-t1300061314
-s6436
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/ContactScanner.o
-t1300061315
-s12828
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/DescriptionViewController.o
-t1300061315
-s41356
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/Ride.o
-t1300061315
-s6000
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar
-t1300061315
-s93620
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar.LinkFileList
-c000000004D7D5C7D000000000000059A
-t1300061309
-s1434
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendarAppDelegate.o
-t1300061314
-s97800
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideViewController.o
-t1300061315
-s74460
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RootViewController.o
-t1300061315
-s73140
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/StartViewController.o
-t1300061315
-s53188
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlElement.o
-t1300061315
-s12344
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlParser.o
-t1300061315
-s58752
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlRideFactory.o
-t1300061315
-s65720
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/main.o
-t1300061314
-s6420
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent
-t1300061316
-s422
-
-N/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/com.apple.build-tools.platform.validate
-t2
-s0
-
-N/Users/thomere/code/RideCalendar/c1.png
-c000000004AE78DEF0000000000003823
-t1256689135
-s14371
-
-N/Users/thomere/code/RideCalendar/c2.png
-c000000004AE78D920000000000005510
-t1256689042
-s21776
-
-N/Users/thomere/code/RideCalendar/c3.png
-c000000004AE78E220000000000005D1F
-t1256689186
-s23839
-
-N/Users/thomere/code/RideCalendar/c4.png
-c000000004AE78E60000000000000362A
-t1256689248
-s13866
-
-N/Users/thomere/code/RideCalendar/c5.png
-c000000004AE7F5EF0000000000006108
-t1256715759
-s24840
-
-N/Users/thomere/code/RideCalendar/d1.png
-c000000004AE78E1800000000000036E5
-t1256689176
-s14053
-
-N/Users/thomere/code/RideCalendar/d2.png
-c000000004AE78E36000000000000519F
-t1256689206
-s20895
-
-N/Users/thomere/code/RideCalendar/d3.png
-c000000004AE78DB50000000000005A13
-t1256689077
-s23059
-
-N/Users/thomere/code/RideCalendar/d4.png
-c000000004AE78DAB0000000000001DBF
-t1256689067
-s7615
-
-N/Users/thomere/code/RideCalendar/d5.png
-c000000004AE7F5FD0000000000005D77
-t1256715773
-s23927
-
-N/Users/thomere/code/RideCalendar/e1.png
-c000000004AE78E2C000000000000347C
-t1256689196
-s13436
-
-N/Users/thomere/code/RideCalendar/e2.png
-c000000004AE78E0D0000000000005050
-t1256689165
-s20560
-
-N/Users/thomere/code/RideCalendar/e3.png
-c000000004AE78DC20000000000005872
-t1256689090
-s22642
-
-N/Users/thomere/code/RideCalendar/e4.png
-c000000004AE78DE50000000000001B8F
-t1256689125
-s7055
-
-N/Users/thomere/code/RideCalendar/icon.png
-c000000004B6947E70000000000001688
-t1265190887
-s5768
-
-N/Users/thomere/code/RideCalendar/main.m
-c000000004ADBBEE40000000000000171
-t1255915236
-s369
-i<UIKit/UIKit.h>
-
-N/Users/thomere/code/RideCalendar/map.png
-c000000004B8A0C0E00000000000012CE
-t1267338254
-s4814
-
-N/Users/thomere/code/RideCalendar/rsvp.png
-c000000004B8A0B6F00000000000016D8
-t1267338095
-s5848
-
-N/var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch.gch
-t1300061313
-s11016596
-
-N/var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch.gch
-t1300061313
-s10557844
-
-NRideCalendar-Info.plist
-c000000004C50D84B0000000000000540
-t1280366667
-s1344
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies321754109#321754109#0(0"0(0#1#0"8625002944#0"0#
-
-CCodeSign /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-s321754116.141095
-e321754116.594797
-r1
-xCodeSign
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-lSLF07#2@46"CodeSign build/Debug-iphoneos/RideCalendar.app321754116#321754116#0(0"0(0#0#70"/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app8621550304#651"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jerome Thomere (YTU584N9HL)" --resource-rules=/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/ResourceRules.plist --entitlements /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/ContactScanner.o /Users/thomere/code/RideCalendar/Classes/ContactScanner.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.533543
-e321754114.598762
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/ContactScanner.o
-x/Users/thomere/code/RideCalendar/Classes/ContactScanner.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/thomere/code/RideCalendar/Classes/ContactScanner.m321754114#321754114#0(0"0(0#0#57"/Users/thomere/code/RideCalendar/Classes/ContactScanner.m8624415936#1788"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/ContactScanner.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/ContactScanner.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/DescriptionViewController.o /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.354088
-e321754114.427598
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/DescriptionViewController.o
-x/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m321754114#321754114#0(0"0(0#0#68"/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m8626242848#1810"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/DescriptionViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/Ride.o /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.684110
-e321754114.734149
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/Ride.o
-x/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m321754114#321754114#0(0"0(0#0#65"/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m8626601248#1786"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/Ride.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendarAppDelegate.o /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.109991
-e321754114.331595
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendarAppDelegate.o
-x/Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m321754114#321754114#0(0"0(0#0#66"/Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m8617108640#1806"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendarAppDelegate.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideViewController.o /Users/thomere/code/RideCalendar/Classes/../RideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.331701
-e321754114.553169
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideViewController.o
-x/Users/thomere/code/RideCalendar/Classes/../RideViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/thomere/code/RideCalendar/Classes/../RideViewController.m321754114#321754114#0(0"0(0#0#64"/Users/thomere/code/RideCalendar/Classes/../RideViewController.m8626423200#1799"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/../RideViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RootViewController.o /Users/thomere/code/RideCalendar/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.177866
-e321754114.353985
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RootViewController.o
-x/Users/thomere/code/RideCalendar/Classes/RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/thomere/code/RideCalendar/Classes/RootViewController.m321754114#321754114#0(0"0(0#0#61"/Users/thomere/code/RideCalendar/Classes/RootViewController.m8627204320#1796"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/RootViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RootViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/StartViewController.o /Users/thomere/code/RideCalendar/Classes/StartViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.427704
-e321754114.533442
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/StartViewController.o
-x/Users/thomere/code/RideCalendar/Classes/StartViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/thomere/code/RideCalendar/Classes/StartViewController.m321754114#321754114#0(0"0(0#0#62"/Users/thomere/code/RideCalendar/Classes/StartViewController.m8625711904#1798"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/StartViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/StartViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlElement.o /Users/thomere/code/RideCalendar/Classes/XmlElement.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.599009
-e321754114.684012
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlElement.o
-x/Users/thomere/code/RideCalendar/Classes/XmlElement.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/thomere/code/RideCalendar/Classes/XmlElement.m321754114#321754114#0(0"0(0#0#53"/Users/thomere/code/RideCalendar/Classes/XmlElement.m8623909600#1780"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/XmlElement.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlElement.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlParser.o /Users/thomere/code/RideCalendar/Classes/XmlParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.553272
-e321754114.658180
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlParser.o
-x/Users/thomere/code/RideCalendar/Classes/XmlParser.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/thomere/code/RideCalendar/Classes/XmlParser.m321754114#321754114#0(0"0(0#0#52"/Users/thomere/code/RideCalendar/Classes/XmlParser.m8624036640#1778"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/XmlParser.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlParser.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlRideFactory.o /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754114.658303
-e321754114.796994
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlRideFactory.o
-x/Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m321754114#321754114#0(0"0(0#0#57"/Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m8623401856#1788"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/XmlRideFactory.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/main.o /Users/thomere/code/RideCalendar/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754113.880936
-e321754114.177771
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/main.o
-x/Users/thomere/code/RideCalendar/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/thomere/code/RideCalendar/main.m321754113#321754114#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/main.m8622119584#1760"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/main.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/ContactScanner.o /Users/thomere/code/RideCalendar/Classes/ContactScanner.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.355569
-e321754115.433688
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/ContactScanner.o
-x/Users/thomere/code/RideCalendar/Classes/ContactScanner.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/thomere/code/RideCalendar/Classes/ContactScanner.m321754115#321754115#0(0"0(0#0#57"/Users/thomere/code/RideCalendar/Classes/ContactScanner.m8624417152#1788"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/ContactScanner.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/ContactScanner.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/DescriptionViewController.o /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.191039
-e321754115.258415
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/DescriptionViewController.o
-x/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m321754115#321754115#0(0"0(0#0#68"/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m8626077984#1810"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/DescriptionViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/Ride.o /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.542305
-e321754115.595496
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/Ride.o
-x/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m321754115#321754115#0(0"0(0#0#65"/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m8626089632#1786"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld/Ride.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/Ride.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendarAppDelegate.o /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754114.793915
-e321754114.933436
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendarAppDelegate.o
-x/Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m321754114#321754114#0(0"0(0#0#66"/Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m8625694432#1806"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/RideCalendarAppDelegate.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendarAppDelegate.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideViewController.o /Users/thomere/code/RideCalendar/Classes/../RideViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.059723
-e321754115.190942
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideViewController.o
-x/Users/thomere/code/RideCalendar/Classes/../RideViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/thomere/code/RideCalendar/Classes/../RideViewController.m321754115#321754115#0(0"0(0#0#64"/Users/thomere/code/RideCalendar/Classes/../RideViewController.m8626783040#1799"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/../RideViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RootViewController.o /Users/thomere/code/RideCalendar/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754114.933539
-e321754115.059588
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RootViewController.o
-x/Users/thomere/code/RideCalendar/Classes/RootViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/thomere/code/RideCalendar/Classes/RootViewController.m321754114#321754115#0(0"0(0#0#61"/Users/thomere/code/RideCalendar/Classes/RootViewController.m8627278144#1796"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/RootViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RootViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/StartViewController.o /Users/thomere/code/RideCalendar/Classes/StartViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.258631
-e321754115.355408
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/StartViewController.o
-x/Users/thomere/code/RideCalendar/Classes/StartViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/thomere/code/RideCalendar/Classes/StartViewController.m321754115#321754115#0(0"0(0#0#62"/Users/thomere/code/RideCalendar/Classes/StartViewController.m8625484256#1798"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/StartViewController.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/StartViewController.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlElement.o /Users/thomere/code/RideCalendar/Classes/XmlElement.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.433789
-e321754115.510585
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlElement.o
-x/Users/thomere/code/RideCalendar/Classes/XmlElement.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/thomere/code/RideCalendar/Classes/XmlElement.m321754115#321754115#0(0"0(0#0#53"/Users/thomere/code/RideCalendar/Classes/XmlElement.m8630404224#1780"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/XmlElement.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlElement.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlParser.o /Users/thomere/code/RideCalendar/Classes/XmlParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.413163
-e321754115.542206
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlParser.o
-x/Users/thomere/code/RideCalendar/Classes/XmlParser.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/thomere/code/RideCalendar/Classes/XmlParser.m321754115#321754115#0(0"0(0#0#52"/Users/thomere/code/RideCalendar/Classes/XmlParser.m8624039936#1778"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/XmlParser.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlParser.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlRideFactory.o /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754115.510689
-e321754115.623881
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlRideFactory.o
-x/Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m321754115#321754115#0(0"0(0#0#57"/Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m8626420768#1788"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/Classes/XmlRideFactory.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/XmlRideFactory.o0#
-
-CCompileC build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/main.o /Users/thomere/code/RideCalendar/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754114.734248
-e321754114.793806
-r1
-xCompileC
-xbuild/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/main.o
-x/Users/thomere/code/RideCalendar/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/thomere/code/RideCalendar/main.m321754114#321754114#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/main.m8626260576#1760"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -include /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch -c /Users/thomere/code/RideCalendar/main.m -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.xib
-s321754111.293506
-e321754112.036922
-r1
-xCompileXIB
-x/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.xib
-lSLF07#2@48"CompileXIB Classes/DescriptionViewController.xib321754111#321754112#0(0"0(0#0#70"/Users/thomere/code/RideCalendar/Classes/DescriptionViewController.xib8624084320#569"    cd /Users/thomere/code/RideCalendar    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/DescriptionViewController.nib /Users/thomere/code/RideCalendar/Classes/DescriptionViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/thomere/code/RideCalendar/Classes/StartViewController.xib
-s321754111.682684
-e321754112.147903
-r1
-xCompileXIB
-x/Users/thomere/code/RideCalendar/Classes/StartViewController.xib
-lSLF07#2@42"CompileXIB Classes/StartViewController.xib321754111#321754112#0(0"0(0#0#64"/Users/thomere/code/RideCalendar/Classes/StartViewController.xib8626724352#557"    cd /Users/thomere/code/RideCalendar    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/StartViewController.nib /Users/thomere/code/RideCalendar/Classes/StartViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/thomere/code/RideCalendar/MainWindow.xib
-s321754109.205376
-e321754109.818802
-r1
-xCompileXIB
-x/Users/thomere/code/RideCalendar/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib321754109#321754109#0(0"0(0#0#47"/Users/thomere/code/RideCalendar/MainWindow.xib8630639744#531"    cd /Users/thomere/code/RideCalendar    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/MainWindow.nib /Users/thomere/code/RideCalendar/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/thomere/code/RideCalendar/RideLevelViewController.xib
-s321754109.206298
-e321754110.179882
-r1
-xCompileXIB
-x/Users/thomere/code/RideCalendar/RideLevelViewController.xib
-lSLF07#2@38"CompileXIB RideLevelViewController.xib321754109#321754110#0(0"0(0#0#60"/Users/thomere/code/RideCalendar/RideLevelViewController.xib8630454304#557"    cd /Users/thomere/code/RideCalendar    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideLevelViewController.nib /Users/thomere/code/RideCalendar/RideLevelViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCompileXIB /Users/thomere/code/RideCalendar/RootViewController.xib
-s321754109.818898
-e321754110.187695
-r1
-xCompileXIB
-x/Users/thomere/code/RideCalendar/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib321754109#321754110#0(0"0(0#0#55"/Users/thomere/code/RideCalendar/RootViewController.xib8624002464#547"    cd /Users/thomere/code/RideCalendar    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RootViewController.nib /Users/thomere/code/RideCalendar/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Default.png Default.png
-s321754112.147989
-e321754112.849463
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Default.png
-xDefault.png
-lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/Default.png Default.png321754112#321754112#0(0"0(0#0#44"/Users/thomere/code/RideCalendar/Default.png8625348480#549"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/Default.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Default.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a1.png a1.png
-s321754110.179979
-e321754110.558585
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a1.png
-xa1.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/a1.png a1.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/a1.png8623968480#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/a1.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a1.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a2.png a2.png
-s321754110.986729
-e321754111.066097
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a2.png
-xa2.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/a2.png a2.png321754110#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/a2.png8626490656#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/a2.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a2.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a3.png a3.png
-s321754110.892971
-e321754110.986636
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a3.png
-xa3.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/a3.png a3.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/a3.png8604528032#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/a3.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a3.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a4.png a4.png
-s321754110.736003
-e321754110.824708
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a4.png
-xa4.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/a4.png a4.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/a4.png8615326784#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/a4.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a4.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a5.png a5.png
-s321754111.309711
-e321754111.401548
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a5.png
-xa5.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/a5.png a5.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/a5.png8623639232#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/a5.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/a5.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b1.png b1.png
-s321754110.820459
-e321754110.892874
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b1.png
-xb1.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/b1.png b1.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/b1.png8611556352#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/b1.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b1.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b2.png b2.png
-s321754110.824791
-e321754110.901683
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b2.png
-xb2.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/b2.png b2.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/b2.png8610706592#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/b2.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b2.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b3.png b3.png
-s321754111.143835
-e321754111.233536
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b3.png
-xb3.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/b3.png b3.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/b3.png8625377952#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/b3.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b3.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b4.png b4.png
-s321754111.049863
-e321754111.135403
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b4.png
-xb4.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/b4.png b4.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/b4.png8626392416#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/b4.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b4.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b5.png b5.png
-s321754111.401639
-e321754111.479115
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b5.png
-xb5.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/b5.png b5.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/b5.png8622628544#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/b5.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/b5.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c1.png c1.png
-s321754110.901774
-e321754110.972146
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c1.png
-xc1.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/c1.png c1.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/c1.png8627229568#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/c1.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c1.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c2.png c2.png
-s321754110.655327
-e321754110.735902
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c2.png
-xc2.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/c2.png c2.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/c2.png8617259840#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/c2.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c2.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c3.png c3.png
-s321754110.575426
-e321754110.655260
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c3.png
-xc3.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/c3.png c3.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/c3.png8620124480#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/c3.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c3.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c4.png c4.png
-s321754110.558676
-e321754110.653138
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c4.png
-xc4.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/c4.png c4.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/c4.png8622214304#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/c4.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c4.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c5.png c5.png
-s321754111.479209
-e321754111.576705
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c5.png
-xc5.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/c5.png c5.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/c5.png8622128928#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/c5.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/c5.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d1.png d1.png
-s321754111.225352
-e321754111.293412
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d1.png
-xd1.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/d1.png d1.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/d1.png8625064320#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/d1.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d1.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d2.png d2.png
-s321754111.066189
-e321754111.143745
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d2.png
-xd2.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/d2.png d2.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/d2.png8626085152#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/d2.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d2.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d3.png d3.png
-s321754110.972234
-e321754111.049780
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d3.png
-xd3.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/d3.png d3.png321754110#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/d3.png8626829536#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/d3.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d3.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d4.png d4.png
-s321754110.730036
-e321754110.820371
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d4.png
-xd4.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/d4.png d4.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/d4.png8616416736#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/d4.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d4.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d5.png d5.png
-s321754111.576798
-e321754111.652459
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d5.png
-xd5.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/d5.png d5.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/d5.png8627425600#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/d5.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/d5.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e1.png e1.png
-s321754110.653321
-e321754110.729943
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e1.png
-xe1.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/e1.png e1.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/e1.png8619595616#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/e1.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e1.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e2.png e2.png
-s321754110.187791
-e321754110.575335
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e2.png
-xe2.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/e2.png e2.png321754110#321754110#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/e2.png8623420000#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/e2.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e2.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e3.png e3.png
-s321754111.233626
-e321754111.309618
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e3.png
-xe3.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/e3.png e3.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/e3.png8624392832#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/e3.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e3.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e4.png e4.png
-s321754111.135492
-e321754111.225253
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e4.png
-xe4.png
-lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/e4.png e4.png321754111#321754111#0(0"0(0#0#39"/Users/thomere/code/RideCalendar/e4.png8625784000#539"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/e4.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/e4.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/icon.png icon.png
-s321754111.652546
-e321754111.682591
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/icon.png
-xicon.png
-lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/icon.png icon.png321754111#321754111#0(0"0(0#0#41"/Users/thomere/code/RideCalendar/icon.png8626936864#543"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/icon.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/icon.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/map.png map.png
-s321754112.112885
-e321754112.159003
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/map.png
-xmap.png
-lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/map.png map.png321754112#321754112#0(0"0(0#0#40"/Users/thomere/code/RideCalendar/map.png8625891264#541"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/map.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/map.png0#
-
-CCopyPNGFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/rsvp.png rsvp.png
-s321754112.058040
-e321754112.112707
-r1
-xCopyPNGFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/rsvp.png
-xrsvp.png
-lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/RideCalendar.app/rsvp.png rsvp.png321754112#321754112#0(0"0(0#0#41"/Users/thomere/code/RideCalendar/rsvp.png8626252256#543"    cd /Users/thomere/code/RideCalendar    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/thomere/code/RideCalendar/rsvp.png /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/rsvp.png0#
-
-CCopyPlistFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Entitlements.plist Entitlements.plist
-s321754112.037023
-e321754112.057943
-r1
-xCopyPlistFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Entitlements.plist
-xEntitlements.plist
-lSLF07#2@23"Copy Entitlements.plist321754112#321754112#0(0"0(0#0#51"/Users/thomere/code/RideCalendar/Entitlements.plist8626414816#372"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app0#
-
-CCpResource build/Debug-iphoneos/RideCalendar.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s321754109.145846
-e321754109.205278
-r1
-xCpResource
-xbuild/Debug-iphoneos/RideCalendar.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321754109#321754109#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8622820320#487"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app0#
-
-CCreateUniversalBinary /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar normal "armv6 armv7"
-s321754115.887071
-e321754115.921210
-r1
-xCreateUniversalBinary
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar
-xnormal
-xarmv6 armv7
-lSLF07#2@93"CreateUniversalBinary build/Debug-iphoneos/RideCalendar.app/RideCalendar normal "armv6 armv7"321754115#321754115#0(0"0(0#0#44"/Users/thomere/code/RideCalendar/armv6 armv78624186944#534"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar -output /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar0#
-
-CDataModelVersionCompile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar.momd /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld
-s321754113.880053
-e321754114.109868
-r1
-xDataModelVersionCompile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar.momd
-x/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld
-lSLF07#2@105"DataModelVersionCompile build/Debug-iphoneos/RideCalendar.app/RideCalendar.momd RideCalendar.xcdatamodeld321754113#321754114#0(0"0(0#0#58"/Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld8622559776#340"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/thomere/code/RideCalendar/RideCalendar.xcdatamodeld /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar.momd0#
-
-CGenerateDSYMFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app.dSYM /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar
-s321754115.921315
-e321754116.089252
-r1
-xGenerateDSYMFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app.dSYM
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar
-lSLF07#2@110"GenerateDSYMFile build/Debug-iphoneos/RideCalendar.app.dSYM build/Debug-iphoneos/RideCalendar.app/RideCalendar321754115#321754116#0(0"0(0#0#83"/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar8623995616#359"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/RideCalendar -o /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app.dSYM0#
-
-CLd /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar normal armv6
-s321754114.797074
-e321754115.413057
-r1
-xLd
-x/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar
-xnormal
-xarmv6
-lSLF07#2@130"Link /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar321754114#321754115#0(0"0(0#0#0"8625208704#925"    cd /Users/thomere/code/RideCalendar    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/thomere/code/RideCalendar/build/Debug-iphoneos -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -filelist /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -framework CoreData -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv6/RideCalendar0#
-
-CLd /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar normal armv7
-s321754115.624176
-e321754115.886976
-r1
-xLd
-x/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar
-xnormal
-xarmv7
-lSLF07#2@130"Link /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar321754115#321754115#0(0"0(0#0#0"8625892416#925"    cd /Users/thomere/code/RideCalendar    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/thomere/code/RideCalendar/build/Debug-iphoneos -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -filelist /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -framework CoreData -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/Objects-normal/armv7/RideCalendar0#
-
-CProcessInfoPlistFile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Info.plist RideCalendar-Info.plist
-s321754109.147169
-e321754109.158120
-r1
-xProcessInfoPlistFile
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Info.plist
-xRideCalendar-Info.plist
-lSLF07#2@31"Process RideCalendar-Info.plist321754109#321754109#0(0"0(0#0#56"/Users/thomere/code/RideCalendar/RideCalendar-Info.plist8621956864#558"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RideCalendar-Info.plist -genpkginfo /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/ResourceRules.plist -o /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/Info.plist0#
-
-CProcessPCH /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch.gch RideCalendar_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s321754112.850494
-e321754113.879942
-r1
-xProcessPCH
-x/var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch.gch
-xRideCalendar_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile RideCalendar_Prefix.pch321754112#321754113#0(0"0(0#0#56"/Users/thomere/code/RideCalendar/RideCalendar_Prefix.pch8623958400#1659"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv7 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -c /Users/thomere/code/RideCalendar/RideCalendar_Prefix.pch -o /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-awruokodmoldotgwaztbnclobdon/RideCalendar_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch.gch RideCalendar_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s321754112.849588
-e321754113.758087
-r1
-xProcessPCH
-x/var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch.gch
-xRideCalendar_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile RideCalendar_Prefix.pch321754112#321754113#0(0"0(0#0#56"/Users/thomere/code/RideCalendar/RideCalendar_Prefix.pch8624164448#1659"    cd /Users/thomere/code/RideCalendar    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-generated-files.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-own-target-headers.hmap -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-all-target-headers.hmap -iquote /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar-project-headers.hmap -F/Users/thomere/code/RideCalendar/build/Debug-iphoneos -I/Users/thomere/code/RideCalendar/build/Debug-iphoneos/include -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources/armv6 -I/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/DerivedSources -c /Users/thomere/code/RideCalendar/RideCalendar_Prefix.pch -o /var/folders/Gf/GfmK6VxS2Pa1vE+8ZLUcW++++TQ/-Caches-/com.apple.Xcode.503/SharedPrecompiledHeaders/RideCalendar_Prefix-biixugofgkwcqbehayxjlbjkaptq/RideCalendar_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/thomere/Library/MobileDevice/Provisioning Profiles/FBF31D73-894E-40C8-8F1E-67B64724970C.mobileprovision" /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/embedded.mobileprovision
-s321754116.089365
-e321754116.090710
-r1
-xProcessProductPackaging
-x/Users/thomere/Library/MobileDevice/Provisioning Profiles/FBF31D73-894E-40C8-8F1E-67B64724970C.mobileprovision
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/embedded.mobileprovision
-lSLF07#2@199"ProcessProductPackaging "/Users/thomere/Library/MobileDevice/Provisioning Profiles/FBF31D73-894E-40C8-8F1E-67B64724970C.mobileprovision" build/Debug-iphoneos/RideCalendar.app/embedded.mobileprovision321754116#321754116#0(0"0(0#0#95"/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/embedded.mobileprovision8626794240#418"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/thomere/Library/MobileDevice/Provisioning Profiles/FBF31D73-894E-40C8-8F1E-67B64724970C.mobileprovision" -o /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent
-s321754116.095726
-e321754116.141012
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent
-lSLF07#2@190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent321754116#321754116#0(0"0(0#0#110"/Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent8616838912#435"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/thomere/code/RideCalendar/build/RideCalendar.build/Debug-iphoneos/RideCalendar.build/RideCalendar.xcent0#
-
-CTouch /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-s321754116.090771
-e321754116.095577
-r1
-xTouch
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-lSLF07#2@76"Touch /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app321754116#321754116#0(0"0(0#0#0"8626445248#257"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app0#
-
-CValidate /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-s321754116.594887
-e321754117.223191
-r1
-xValidate
-x/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app
-o2011-03-13 17:08:36.922 Validation[21404:607] *** Warning: Defaulting to the standard codesign tool
-lSLF07#2@46"Validate build/Debug-iphoneos/RideCalendar.app321754116#321754117#0(100"2011-03-13 17:08:36.922 Validation[21404:607] *** Warning: Defaulting to the standard codesign tool0(0#0#70"/Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app8627256544#366"    cd /Users/thomere/code/RideCalendar    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/thomere/code/RideCalendar/build/Debug-iphoneos/RideCalendar.app0#
-
