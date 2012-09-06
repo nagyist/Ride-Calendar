@@ -11,9 +11,6 @@
 #import "Ride.h"
 #import "JServerConnect.h"
 
-#import "XmlParser.h"
-#import "XmlRideFactory.h"
-
 #import <CFNetwork/CFNetwork.h>
 
 
@@ -27,9 +24,6 @@
 @synthesize rideData;
 @synthesize lastUpdatedDate;
 @synthesize nextRide,currentRideObject,currentParseBatch; //currentParsedCharacterData
-
-static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calendar/rides-xml.php";
-
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -135,43 +129,6 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
 	[alertView release];
 }
 
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-	self.feedConnection = nil;
-	NSLog(@"New parsing of data");
-	XmlParser *rideParser = [[XmlParser alloc] init];
-	rideParser.xmlData = rideData;
-	[rideParser execute];
-	XmlRideFactory* factory = [[XmlRideFactory alloc] init];
-	XmlElement* messageElement = [rideParser.parsedElement getElementByTagName:@"message"];
-    NSLog(@"There are %d elements in the message", [messageElement.children count]);
-	for (XmlElement* elt in messageElement.children) {
-		[self checkObject:[factory rideFromXml:elt]];
-	}
-	[self saveObjectContext];
-	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-	[self reloadTableView];
-}
-
-/*
-- (void)parseRideData:(NSData *)data {
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	
-	self.currentParseBatch = [NSMutableArray array];
-	self.currentParsedCharacterData = [NSMutableString string];
-	NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
-	[parser setDelegate:self];
-	[parser parse];
-	int count = [self.currentParseBatch count];
-	NSLog(@"Count: %d", count);
-	[self reloadTableView];
-	self.currentParseBatch = nil;
-	self.currentParsedCharacterData = nil;
-	[parser release];
-	[pool release];
-}
-*/
-
-
 - (void)reloadTableView {
 	[rootViewController.tableView reloadData];
 	[self checkNextRide];
@@ -184,74 +141,6 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
 	}
 
 }
-
-/*
-#pragma mark Parser constants
-
-static const const NSUInteger kMaximumNumberOfRidesToParse = 50;
-static NSUInteger const KSizeOfRideBatch = 5;
-
-static NSString * const kEntryElementName = @"item";
-static NSString * const kLinkElementName = @"link";
-static NSString * const kTitleElementName = @"title";
-static NSString * const kRideIdElementName = @"id";
-static NSString * const kDescriptionElementName = @"description";
-static NSString * const kDateElementName = @"pubDate";
-static NSString * const kPaceElementName = @"pace";
-static NSString * const kTerrainElementName = @"terrain";
-static NSString * const kDistanceElementName = @"distance";
-static NSString * const kLeaderElementName = @"leader";
-static NSString * const kEmailElementName = @"email";
-static NSString * const kPhoneElementName = @"phone";
-static NSString * const kStartElementName = @"start";
-static NSString * const kStartLatElementName = @"lat";
-static NSString * const kStartLonElementName = @"lon";
-
-static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
-
-#pragma mark NSXMLParser delegate methods
-
--(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName 
-									namespaceURI:(NSString *)namespaceURI
-									qualifiedName:(NSString *)qname 
-									attributes:(NSDictionary *)attributeDict {
-	if (parsedRideCounter >= kMaximumNumberOfRidesToParse) {
-		didAbortParsing = YES;
-		[parser abortParsing];
-	}
-	//NSLog(@"element: %@", elementName);
-	if ([elementName isEqualToString:kEntryElementName]) {
-		NSEntityDescription *entity = [NSEntityDescription entityForName:@"Ride" inManagedObjectContext:[self managedObjectContext]];
-		Ride *ride = [[Ride alloc] initWithEntity:entity insertIntoManagedObjectContext:[self managedObjectContext]];
-		self.currentRideObject = ride;
-		self.currentRideObject.terrainPaceCode = @"";
-		[ride release];
-	} else if ([self isRegularItemInsideElement:elementName]) {
-        accumulatingParsedCharacterData = YES;
-		//NSLog(@"started element %@", elementName);
-		[currentParsedCharacterData setString:@""];
-	}
-}
-
--(BOOL)isRegularItemInsideElement:(NSString *)elementName {
-	return (
-			[elementName isEqualToString:kLinkElementName]
-			|| [elementName isEqualToString:kRideIdElementName]
-			|| [elementName isEqualToString:kTitleElementName]
-			|| [elementName isEqualToString:kDescriptionElementName]
-			|| [elementName isEqualToString:kDateElementName]
-			|| [elementName isEqualToString:kPaceElementName]
-			|| [elementName isEqualToString:kTerrainElementName]
-			|| [elementName isEqualToString:kDistanceElementName]
-			|| [elementName isEqualToString:kStartElementName]
-			|| [elementName isEqualToString:kStartLatElementName]
-			|| [elementName isEqualToString:kStartLonElementName]
-			|| [elementName isEqualToString:kLeaderElementName]
-			|| [elementName isEqualToString:kEmailElementName]
-			|| [elementName isEqualToString:kPhoneElementName]
-	);
-}
-*/
 
 -(void) checkObject:(Ride *)ride {
 	NSFetchRequest *request = [[NSFetchRequest alloc] init];
@@ -316,38 +205,8 @@ static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
 	}
 
 } 
-/*
- -(void)checkNextRide:(Ride *)ride  {
- if (self.nextRide == nil) {
- NSLog(@"self.nextRide = %@", ride);
- self.nextRide = ride;
- return;
- }
- NSDate *testDate = ride.date;
- NSDate *today = [NSDate date];
- NSLog(@"checkNextRide today=%@ testDate=%@ nextRide.date=%@", today, testDate, self.nextRide.date);
- NSLog(@"today compare:testDate=%d", [today compare:testDate]);
- NSLog(@"[testDate compare:self.nextRide.date]=%d", [testDate compare:self.nextRide.date]);
- if (([today compare:testDate] == NSOrderedAscending) //ride is in the future
- && ([testDate compare:self.nextRide.date] == NSOrderedAscending)) // but it is before what we thought was the next ride
- {
- NSLog(@"self.nextRide = %@", ride);
- self.nextRide = ride;
- }
- 
- }
- */
 
 -(void)checkAllRides {
-	/*	NSFetchRequest *request = [[NSFetchRequest alloc] init];
-	 NSEntityDescription *entity = [NSEntityDescription entityForName:@"Ride" inManagedObjectContext:managedObjectContext];
-	 [request setEntity:entity];
-	 NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"date" ascending:YES];
-	 NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
-	 [request setSortDescriptors:sortDescriptors];
-	 NSError *error;
-	 [managedObjectContext executeFetchRequest:request error:&error]
-	 */
 	NSEnumerator* rideEnumerator = [[self.managedObjectContext registeredObjects] objectEnumerator];
 	Ride *ride;
 	while (ride = [rideEnumerator nextObject]) {
@@ -355,81 +214,7 @@ static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
 	}
 }
 
-/*
--(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName 
-									namespaceURI:(NSString *)namespaceURI
-									qualifiedName:(NSString *)qname {
-	if ([elementName isEqualToString:kEntryElementName]) {
-        [self.currentParseBatch addObject:self.currentRideObject];
-		[self checkObject:self.currentRideObject];
-		parsedRideCounter++;
-		//[self.currentRideObject outputToLog];
-	}else if ([elementName isEqualToString:kRideIdElementName]) {
-		self.currentRideObject.rideId = [self.currentParsedCharacterData copy];
-	}else if ([elementName isEqualToString:kLinkElementName]) {
-		self.currentRideObject.link = [self.currentParsedCharacterData copy];
-	}else if ([elementName isEqualToString:kLeaderElementName]) {
-		self.currentRideObject.leader = [self.currentParsedCharacterData copy];
-	}else if ([elementName isEqualToString:kPhoneElementName]) {
-		self.currentRideObject.phone = [self.currentParsedCharacterData copy];
-	}else if ([elementName isEqualToString:kEmailElementName]) {
-		self.currentRideObject.email = [self.currentParsedCharacterData copy];
-	}else if ([elementName isEqualToString:kTitleElementName]) {
-		self.currentRideObject.title = [NSString stringWithString:self.currentParsedCharacterData];
-	}else if ([elementName isEqualToString:kDescriptionElementName]) {
-		self.currentRideObject.descString = [self.currentParsedCharacterData copy];
-	} else if ([elementName isEqualToString:kDateElementName]) {
-		NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
-		[dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss"];
-		self.currentRideObject.date = [dateFormatter dateFromString:self.currentParsedCharacterData];
-		[dateFormatter setDateFormat:@"LLLL YYYY"];
-		self.currentRideObject.month = [dateFormatter stringFromDate:self.currentRideObject.date];
-	} else if ([elementName isEqualToString:kPaceElementName]) {
-		self.currentRideObject.pace = [NSNumber numberWithInt:[self.currentParsedCharacterData characterAtIndex:0] - kPaceA];
-		self.currentRideObject.terrainPaceCode = [self.currentParsedCharacterData stringByAppendingString:self.currentRideObject.terrainPaceCode];
-	} else if ([elementName isEqualToString:kTerrainElementName]) {
-		self.currentRideObject.terrain = [NSNumber numberWithInt:[self.currentParsedCharacterData integerValue] - 1];
-		self.currentRideObject.terrainPaceCode = [self.currentRideObject.terrainPaceCode stringByAppendingString:self.currentParsedCharacterData];
-	} else if ([elementName isEqualToString:kDistanceElementName]) {
-		if ([self.currentParsedCharacterData length] == 0) {
-			self.currentRideObject.distance = [NSDecimalNumber zero];
-		}else {
-			self.currentRideObject.distance = [NSDecimalNumber decimalNumberWithString:self.currentParsedCharacterData];
-		}
-	} else if ([elementName isEqualToString:kStartElementName]) {
-		self.currentRideObject.start = [NSString stringWithString:self.currentParsedCharacterData];
-	} else if ([elementName isEqualToString:kStartLatElementName]) {
-		self.currentRideObject.startLat = [NSDecimalNumber decimalNumberWithString:self.currentParsedCharacterData];
-	} else if ([elementName isEqualToString:kStartLonElementName]) {
-		self.currentRideObject.startLon = [NSDecimalNumber decimalNumberWithString:self.currentParsedCharacterData];
-	}
-	accumulatingParsedCharacterData = NO;
-}
-- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-    if (accumulatingParsedCharacterData) {
-        // If the current element is one whose content we care about, append 'string'
-        // to the property that holds the content of the current element.
-        [self.currentParsedCharacterData appendString:string];
-    }
-}
 
-- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
-    // If the number of ride records received is greater than kMaximumNumberOfEarthquakesToParse, we abort parsing.
-    // The parser will report this as an error, but we don't want to treat it as an error. The flag didAbortParsing is
-    // how we distinguish real errors encountered by the parser.
-	if (didAbortParsing = YES) {
-		NSLog(@"didAbortParsing: YES");
-	}
-	else {
-		NSLog(@"didAbortParsing: NO");
-	}
-    if (didAbortParsing == NO) {
-        // Pass the error to the main thread for handling.
-        //[self performSelectorOnMainThread:@selector(handleError:) withObject:parseError waitUntilDone:NO];
-		[self handleError:parseError];
-    }
-}
-*/
 #pragma mark -
 #pragma mark Core Data stack
 
