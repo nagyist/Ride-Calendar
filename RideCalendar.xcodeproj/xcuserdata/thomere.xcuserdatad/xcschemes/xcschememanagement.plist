@@ -12,8 +12,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>RideCalendar.app</key>
-		<true/>
+		<key>1D6058900D05DD3D006BFB54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AED7180A1489541E00717A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AED7184A1489586200717A96</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
