@@ -9,7 +9,9 @@
 #import "RideCalendarAppDelegate.h"
 #import "RootViewController.h"
 #import "Ride.h"
-#import "XmlParser.h";
+#import "JServerConnect.h"
+
+#import "XmlParser.h"
 #import "XmlRideFactory.h"
 
 #import <CFNetwork/CFNetwork.h>
@@ -36,6 +38,9 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
     
 	[window addSubview:[navigationController view]];
 	[self reloadTableView];
+    JServerConnect *connect = [[JServerConnect alloc] init];
+    [connect asyncFetchRides];
+    /*
 	NSString* updatedURLString = [NSString stringWithFormat:@"%@?updatedafter=2010-03-23", kCalendarURLString];
 	NSLog(@"updatedURLString=%@", updatedURLString);
 	NSURLRequest *rideRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:updatedURLString]];
@@ -44,6 +49,7 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
 	NSAssert(self.feedConnection != nil, @"Failure to create URL Connection.");
 
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+     */
     [window makeKeyAndVisible];
 }
 
@@ -53,7 +59,12 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
 	[self saveObjectContext];
 }
 
+- (void)applicationWillResignActive:(UIApplication *)application {
+	[self saveObjectContext];
+}
+
 - (void)saveObjectContext {
+    NSLog(@"RideCalendarAppDelegate.h saveObjectContext");
 	NSError *error = nil;
 	if (managedObjectContext != nil) {
 		if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
@@ -165,10 +176,10 @@ static NSString * const kCalendarURLString = @"http://dssf.org/dssf_html/calenda
 	[rootViewController.tableView reloadData];
 	[self checkNextRide];
 	if (self.nextRide != nil) {
-		NSLog(@"nextRide.date=%@", self.nextRide.date);
+		NSLog(@"RideCalendarAppDelegate reloadTableView nextRide.date=%@", self.nextRide.date);
 		//NSLog(@"nextRide=%@", self.nextRide);
 		NSIndexPath *nextRideIndexPath = [rootViewController.resultsController indexPathForObject:self.nextRide];
-		NSLog(@"nextRideIndexPath=%@", nextRideIndexPath);
+		NSLog(@"RideCalendarAppDelegate reloadTableView nextRideIndexPath=%@", nextRideIndexPath);
 		[rootViewController.tableView scrollToRowAtIndexPath:nextRideIndexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
 	}
 
@@ -296,7 +307,6 @@ static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
 	NSMutableArray *mutableResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
 	if (mutableResults == nil) {
 		NSLog(@"Fetch error = %@", error);
-		abort;
 	}
 	//NSLog(@"%d objects after today", [mutableResults count]);
 	if ([mutableResults count] >= 1) {
@@ -474,19 +484,25 @@ static NSUInteger kPaceA = (NSUInteger)(unichar)'A';
 							 [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
 							 [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
     if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:options error:&error]) {
-		/*
-		 Replace this implementation with code to handle the error appropriately.
-		 
-		 abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. If it is not possible to recover from the error, display an alert panel that instructs the user to quit the application by pressing the Home button.
-		 
-		 Typical reasons for an error here include:
-		 * The persistent store is not accessible
-		 * The schema for the persistent store is incompatible with current managed object model
-		 Check the error message to determine what the actual problem was.
-		 */
-		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
-		abort();
-    }    
+        //erase the store when the schema is invalid
+        NSLog(@"addPersistentStoreWithType error %@, trying to delete the store at %@", [error userInfo], storeUrl);
+		[[NSFileManager defaultManager] removeItemAtURL:storeUrl error:nil];
+		if (![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:nil error:&error]) {
+            
+            /*
+             Replace this implementation with code to handle the error appropriately.
+             
+             abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. If it is not possible to recover from the error, display an alert panel that instructs the user to quit the application by pressing the Home button.
+             
+             Typical reasons for an error here include:
+             * The persistent store is not accessible
+             * The schema for the persistent store is incompatible with current managed object model
+             Check the error message to determine what the actual problem was.
+             */
+            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            abort();
+        }
+    }
 	
     return persistentStoreCoordinator;
 }

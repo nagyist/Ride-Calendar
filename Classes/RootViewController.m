@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Today" style:UIBarButtonItemStylePlain target:self action:@selector(goToToday:)];
 	self.tableView.rowHeight = 50;
 	self.title = @"Rides";
 	NSError *error;
@@ -29,6 +30,17 @@
 	RideCalendarAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
 	[appDelegate checkAllRides];
 	NSLog(@"nextRide.date=%@", appDelegate.nextRide.date);
+}
+
+- (void) goToToday:(id)target {
+	RideCalendarAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+	if (appDelegate.nextRide != nil) {
+		NSLog(@"RideCalendarAppDelegate goToToday nextRide.date=%@", appDelegate.nextRide.date);
+		//NSLog(@"nextRide=%@", self.nextRide);
+		NSIndexPath *nextRideIndexPath = [self.resultsController indexPathForObject:appDelegate.nextRide];
+		NSLog(@"RideCalendarAppDelegate goToToday nextRideIndexPath=%@", nextRideIndexPath);
+		[self.tableView scrollToRowAtIndexPath:nextRideIndexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
+	}
 }
 
 - (NSDateFormatter *)dateFormatter {
@@ -77,7 +89,7 @@
 	[sortDescriptor release];
 	
 	// Create and initialize the fetch results controller.
-	NSFetchedResultsController *fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:managedObjectContext sectionNameKeyPath:@"month" cacheName:@"calendar.cache"];
+	NSFetchedResultsController *fetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:managedObjectContext sectionNameKeyPath:@"month" cacheName:nil];
 	[request release];
 	self.resultsController = fetchedResultsController;
 	[fetchedResultsController release];
@@ -95,7 +107,13 @@
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    return [[[self.resultsController sections] objectAtIndex:section] name];
+    NSDateFormatter *monthFormatter = [[[NSDateFormatter alloc] init] autorelease];
+    [monthFormatter setDateFormat:@"yyyy-MM"];
+    NSString *monthName = [[[self.resultsController sections] objectAtIndex:section] name];
+    NSDate* month = [monthFormatter dateFromString:monthName];
+    [monthFormatter setDateFormat:@"LLLL yyyy"];
+    monthName = [monthFormatter stringFromDate:month];
+    return monthName;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -105,11 +123,18 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
+	Ride *ride = [self.resultsController objectAtIndexPath:indexPath];
 	static NSUInteger const kDateTag = 3;
 	static NSUInteger const kTitleTag = 4;
 	UILabel *dateLabel = nil;
     UILabel *titleLabel = nil;
-	static NSString *CellIdentifier = @"RideCellID";
+	NSString *CellIdentifier;
+    if ([ride.date compare:[NSDate date]] < 1) {
+        CellIdentifier = @"RideCellID";
+	} else {
+        CellIdentifier = @"PastRideCellID";
+	}
+
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -118,7 +143,11 @@
 		dateLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 3, 190, 14)];
 		dateLabel.tag = kDateTag;
 		dateLabel.font = [UIFont systemFontOfSize:13];
-		dateLabel.textColor = [UIColor blueColor];
+        if ([ride.date compare:[NSDate date]] < 1) {
+            dateLabel.textColor = [UIColor blackColor];
+        } else {
+            cell.backgroundColor =[UIColor lightGrayColor];
+        }
 		dateLabel.textAlignment = UITextAlignmentRight;
 		[cell.contentView addSubview:dateLabel];
 		[dateLabel release];
@@ -135,7 +164,6 @@
 	}
 	//[self tableView:tableView numberOfRowsInSection:[indexPath section]];
 	//NSLog(@"Section %d row %d", [indexPath section], [indexPath row]);
-	Ride *ride = [self.resultsController objectAtIndexPath:indexPath];
 	if ([ride.distance floatValue] > 0) {
 		NSString *codePng = [[NSString stringWithFormat:@"%@.png", ride.terrainPaceCode] lowercaseString];
 		UIImage *rideImage = [UIImage imageNamed:codePng];

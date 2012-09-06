@@ -7,7 +7,7 @@
 //
 
 #import "DescriptionViewController.h"
-
+#import "JServerConnect.h"
 
 @implementation DescriptionViewController
 @synthesize text;
